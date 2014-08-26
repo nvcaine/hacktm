@@ -1,9 +1,9 @@
-var appURL = "http://localhost/web/hack";
+var appURL = "http://localhost/web/hacktm/";
 
 var mainMenuOptions = [
-	{label: "Home"},
-	{label: "Despre"},
-	{label: "Inscriere"},
-	{label: "Alte Chestii"},
-	{label: "Contact"}
+	{label: "Home", url: ""},
+	{label: "Despre", url: "about.html"},
+	{label: "Inscriere", url: "register.html"},
+	//{label: "Alte Chestii", url: "#"},
+	{label: "Contact", url: "contact.html"}
 ];
