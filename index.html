@@ -15,6 +15,7 @@
 		<!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">-->
 
 		<link href="css/main/main.css" rel="stylesheet">
+		<link href="css/main/sticky.css" rel="stylesheet">
 
 		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
@@ -29,20 +30,19 @@
 		</header>
 
 		<div class="container">
-		<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur metus nulla, gravida nec enim in, convallis gravida massa. Phasellus mauris eros, ullamcorper at elementum id, accumsan sit amet leo. Vestibulum sed nibh cursus, condimentum turpis eget, hendrerit mi. Aliquam vitae tellus arcu. Maecenas varius nec leo sed aliquam. Cras turpis sem, volutpat nec malesuada sed, mollis sit amet eros. Maecenas condimentum posuere lectus, efficitur ultrices enim scelerisque et.
-</p>
+			<!--<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur metus nulla, gravida nec enim in, convallis gravida massa. Phasellus mauris eros, ullamcorper at elementum id, accumsan sit amet leo. Vestibulum sed nibh cursus, condimentum turpis eget, hendrerit mi. Aliquam vitae tellus arcu. Maecenas varius nec leo sed aliquam. Cras turpis sem, volutpat nec malesuada sed, mollis sit amet eros. Maecenas condimentum posuere lectus, efficitur ultrices enim scelerisque et.
+			</p>
 
-<br />
+			<br />
 
-<p>
-Maecenas sed purus pulvinar, blandit lacus eget, iaculis purus. Aenean a est eget neque luctus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lectus dui, rhoncus eu ullamcorper non, consectetur id massa. In imperdiet nibh vitae nunc feugiat tempus. Donec tincidunt non sapien ut venenatis. Morbi malesuada pharetra tempor. Ut non lobortis urna. Vivamus vel cursus odio. Curabitur ac mauris arcu. Aliquam ultricies dapibus eleifend. Aliquam ut purus euismod, facilisis velit eget, vestibulum nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-</p>
+			<p>
+			Maecenas sed purus pulvinar, blandit lacus eget, iaculis purus. Aenean a est eget neque luctus mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lectus dui, rhoncus eu ullamcorper non, consectetur id massa. In imperdiet nibh vitae nunc feugiat tempus. Donec tincidunt non sapien ut venenatis. Morbi malesuada pharetra tempor. Ut non lobortis urna. Vivamus vel cursus odio. Curabitur ac mauris arcu. Aliquam ultricies dapibus eleifend. Aliquam ut purus euismod, facilisis velit eget, vestibulum nibh. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+			</p>
 
-<div style="text-align:center;">
-	<img src="assets/home.jpg" style="max-width: 100%;" class="frame" alt="">
-</div>
-
+			<div style="text-align:center;">
+				<img src="assets/home.jpg" style="max-width: 100%;" class="frame" alt="">
+			</div>
 
 			<div class="row home-info">
 				<div class="col-sm-4">
@@ -59,13 +59,20 @@ Vivamus sed elementum ipsum. Curabitur sollicitudin vulputate ex, a interdum nis
 					<img src="assets/photo3.jpg" class="frame" alt=""><br />
 Donec id lectus sed nibh aliquam facilisis. Quisque porttitor sodales tristique. Ut efficitur sem ac leo sollicitudin pulvinar. Praesent consectetur accumsan ex, sed porttitor tortor pretium eget. Suspendisse sagittis convallis felis, id euismod mi mollis nec. Cras sed felis suscipit, dapibus ligula vel, dapibus dui. Duis tincidunt nunc sit amet ex consectetur gravida. Donec quis consectetur mauris, vitae sagittis dui. Vivamus fringilla est est, quis tempor felis dapibus in. Suspendisse nibh sem, semper non leo sit amet, laoreet porta odio.
 				</div>
+			</div>-->
+
+			<div class="panel panel-default" style="border:1px solid #999999;">
+				<div class="panel-heading" style="background-color:#777777; border-bottom: 1px solid #999999; color: #FFFFFF;">
+					<h2>Pana la eveniment mai sunt</h2>
+				</div>
+
+				<div class="panel-body" style="color:#000000; background-color:#333333; color: #FFFFFF;">
+					<h1 id="countdown" style="text-align:center;"></h1>
+				</div>
 			</div>
 		</div>
 
 		<footer>
-			<div class="container">
-				the footer
-			</div>
 		</footer>
 
 		<!-- modules -->
@@ -74,6 +81,7 @@ Donec id lectus sed nibh aliquam facilisis. Quisque porttitor sodales tristique.
 		<script src="libs/jQuery.1.11.0/jquery-1.11.0.min.js"></script>
 		<script src="libs/bootstrap-3.1.1/js/bootstrap.min.js"></script>
 		<script src="libs/handlebars-1.3.0/handlebars.js"></script>
+		<script src="libs/jQuery.countdown.2.0.4/jquery.countdown.min.js"></script>
 		<!--<script src="libs/jQuery.jCookie.1.4.1/jquery.cookie.js"></script>
 		<script src="libs/jQuery.PopupOverlay.1.6.0/jquery.popupoverlay.js"></script>-->
 
@@ -85,6 +93,7 @@ Donec id lectus sed nibh aliquam facilisis. Quisque porttitor sodales tristique.
 		<!-- templates: components -->
 		<script src="js/template/components/header.js"></script>
 		<script src="js/template/components/menu.js"></script>
+		<script src="js/template/components/footer.js"></script>
 
 		<!-- templates: popups -->
 
@@ -96,6 +105,7 @@ Donec id lectus sed nibh aliquam facilisis. Quisque porttitor sodales tristique.
 
 		<!-- section script -->
 		<script src="js/section/main.js"></script>
+		<script src="js/section/index.js"></script>
 
 	</body>
 </html>
